@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WODCreator</string>
+    <string name="action_opciones">Ajustes</string>
+    <string name="esAleatorio">ALEATORIO</string>
+</resources>
