@@ -16,7 +16,7 @@ public class DbHelper extends SQLiteOpenHelper {
         super(context, StatusContract.DB_NAME, null, StatusContract.DB_VERSION);
     }
 
-    //crear las tablas e insertar ejercicios (PENDIENTE)
+    //crear las tablas e insertar ejercicios (PENDIENTE todavia)
     @Override
     public void onCreate(SQLiteDatabase db){
         String sql = String.format("create table %s(%s int primary key, %s text, %s text, %s text)",
