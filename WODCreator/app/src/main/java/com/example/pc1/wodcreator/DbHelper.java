@@ -11,6 +11,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DbHelper extends SQLiteOpenHelper {
     private static final String TAG = DbHelper.class.getSimpleName();
 
+    //prueba de github
+
     //constructor
     public DbHelper(Context context){
         super(context, StatusContract.DB_NAME, null, StatusContract.DB_VERSION);
